@@ -10,6 +10,8 @@ public class BiggestNumber
     /// <returns> O maior valor dentre os passados como parâmetro de entrada.</returns>
     public static int IdentifyBiggestNumber(int first, int second, int third)
     {
-       throw new NotImplementedException();        
+        int[] numberList = new int[]{first, second, third};
+        return numberList.Max();
     }
 }
+
